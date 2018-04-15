@@ -33,6 +33,4 @@ run
 
 You should get three tokens: id token, access token and refresh token
 
-ID token is the most useful token you need. 
-
 I also added codes to show how to get these three token's methods and how to show the user's attributes, for example, his/her emailbox.

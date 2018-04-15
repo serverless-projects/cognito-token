@@ -2,7 +2,6 @@
 
 'use strict';
 
-const AWS = require("aws-sdk");
 const AmazonCognitoIdentity = require("amazon-cognito-identity-js");
 
 const meow = require('meow');
@@ -57,6 +56,7 @@ module.exports.test = () => {
                     console.log("ID token payload's method: " + Object.getOwnPropertyNames(result.idToken.payload));
                     // show the code on how to get cognito user's attribute, for example, its emailbox
                     console.log("user's mailbox: " + result.idToken.payload.email);
+                    console.log("user's sub uuid: " + result.idToken.payload.sub);
                     // Amazon Cognito issues three tokens to the client
                     // https://amzn.to/2fo77UI
                     /*Use the idToken for Logins Map when Federating User Pools with Cognito Identity or when passing through an Authorization Header to an API Gateway Authorizer*/
@@ -73,11 +73,11 @@ module.exports.test = () => {
                 },
 
                 onFailure: function(err) {
-                    alert(err);
+                    console.log(err);
                 },
 
             });
-        };
+        }
     });
 }
 
