@@ -1,0 +1,36 @@
+{
+  "name": "cognito-token",
+  "version": "1.0.0",
+  "description": "Generate Cognito user pool's three tokens: id token, access and refresh token",
+  "author": {
+    "name": "Bill Wang",
+    "email": "ozbillwang@gmail.com",
+    "url": "ahead.guru"
+  },
+  "license": "MIT",
+  "files": [
+    "token.js"
+  ],
+  "bin": {
+    "cognito-token": "token.js"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serverless-projects/cognito-token.git"
+  },
+  "dependencies": {
+    "meow": "*",
+    "amazon-cognito-identity-js": "^1.31.0",
+    "aws-sdk": "^2.211.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
