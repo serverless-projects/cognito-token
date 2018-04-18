@@ -1,6 +1,6 @@
 {
   "name": "cognito-token",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generate Cognito user pool's three tokens: id token, access and refresh token",
   "author": {
     "name": "Bill Wang",
