@@ -6,7 +6,7 @@ This demo shows the real cognito three tokens in the aws document [Using Tokens 
 
 * create cognito user pool. You can reference the serverless stack in [create_coginto_userpool](https://github.com/serverless-projects/serverless-authorizers/blob/master/cognito/create_coginto_userpool/serverless.yml)
 * create at least one user in cognito user pool. If you want to create new user with command, reference `signup.sh`. You need login aws console to manually confirm this new user.
-* update username, password, user pool id and client id in `config.json`
+* update username, password, user pool id and client id in `config.json`. There is a sample file for your reference: `config.json.sample`
 
 ## Usage
 
