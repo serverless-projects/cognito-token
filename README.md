@@ -34,4 +34,4 @@ run
 
 You should get three tokens: id token, access token and refresh token
 
-I also added codes to show how to get these three token's methods and how to show the user's attributes, for example, his/her emailbox.
+I also added codes to show how to get these three token's methods and how to show the user's attributes, for example, his/her email box.
