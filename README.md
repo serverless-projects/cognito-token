@@ -13,6 +13,7 @@ This demo shows the real cognito three tokens in the aws document [Using Tokens 
 run 
 
     $ npm install cognito-token
+    $ cp config.json.sample config.json
     # edit config.json
     $ cognito-token config.json
     
