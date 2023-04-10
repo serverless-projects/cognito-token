@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "meow": "*",
-    "amazon-cognito-identity-js": "^1.31.0",
+    "amazon-cognito-identity-js": "^6.2.0",
     "aws-sdk": "^2.211.0"
   },
   "devDependencies": {
